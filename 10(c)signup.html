@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up - DT</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Lugrasimo&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,300;1,100&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color:azure;
+    }
+
+    .container1 {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      display: fixed;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgb(0, 53, 133);
+    }
+
+    .logo h2 {
+      
+
+      font-size: 32px;
+    }
+
+    .logo p {
+      
+
+      font-size: 18px;
+    }
+
+    .rootcontiner {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container2 {
+      display: flex;
+      flex-wrap: wrap;
+      width: 24vw;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 12px;
+      box-shadow: 0px 0px 4px rgb(212, 212, 212);
+      height: 40em;
+
+      color: rgb(1, 75, 48);
+
+      min-width: 370px;
+      background-color: azure;
+
+    }
+
+    .container2 h1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      color: rgb(170, 0, 82);
+
+    }
+
+    .name {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    #name1,
+    #name2,
+    #name3,
+    #name4,
+    #name5,#name6 {
+      display: flex;
+      flex-direction: column;
+    }
+    #name6{
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+    }
+    #name6 button{
+      padding: 0.6em 5em;
+      border-radius: 20px;
+      border: 2px solid rgb(0, 144, 96);
+      background-color: rgb(0, 199, 113);
+      
+    }
+    #name6 button span{
+      font-size: 18px;
+    }
+    #name6 button a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+    .name input {
+      height: 2em;
+      width: 18em;
+      outline: none;
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      border: 2px solid rgb(0, 182, 130);
+      border-radius: 6px;
+      padding: 1px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- logo -->
+  <div class="container1">
+    <div class="logo">
+      <h2>DT</h2>
+      <p>Dev Travellings</p>
+    </div>
+  </div>
+  <!-- form -->
+  <div class="rootcontiner">
+    <div class="container2">
+      <h1>Sign Up</h1>
+      <div class="name">
+        <div id="name1">
+          <span>First Name</span>
+          <input type="text" required>
+        </div>
+        <div id="name2">
+          <span>Last Name</span>
+          <input type="text" required>
+        </div>
+        <div id="name3">
+          <span>Email</span>
+          <input type="email" required>
+        </div>
+        <div id="name4">
+          <span>Password</span>
+          <input type="password" required>
+        </div>
+        <div id="name5">
+          <span>Re Enter Password</span>
+          <input type="password" required>
+        </div>
+        <div id="name6">
+          <button><span><a href="10(d)index.html">Sign Up</a></span></button>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
